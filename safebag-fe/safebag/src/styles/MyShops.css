@@ -1,0 +1,31 @@
+.table-row {
+  background-color: #6de1d2;
+}
+
+.table-row .table-cell {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.table-cell .detail-btn {
+  border-color: #8e7dbe;
+  color: #8e7dbe;
+  transition: border-color 0.3s ease, color 0.3s ease,
+    background-color 0.4s ease;
+}
+.table-cell .detail-btn:hover {
+  border-color: #8e7dbe;
+  background-color: #8e7dbe;
+  color: #fff;
+}
+
+.table-cell .edit-btn {
+  margin-left: 12px;
+  background-color: #ffa500;
+  transition: border-color 0.3s ease, color 0.3s ease,
+    background-color 0.4s ease;
+}
+.table-cell .edit-btn:hover {
+  border-color: #ffa500;
+  color: #ffa500;
+  background-color: #ffff;
+}

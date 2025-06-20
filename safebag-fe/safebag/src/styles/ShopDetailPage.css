@@ -1,0 +1,58 @@
+.shop-detail-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.shop-detail-container .title {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.detail-table {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.detail-table .label-cell {
+  font-weight: bold;
+  border: none;
+  background-color: #6de1d2;
+  width: 30%;
+}
+
+.detail-table .value-cell {
+  color: #333;
+  background-color: #ffff;
+  border: none;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.delete-button {
+  width: 100%;
+  height: 40px;
+  color: #ffff;
+  border: none;
+  border-radius: 2px;
+  background-color: #c71e04;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.6s ease, background-color 0.6s ease;
+  font-size: 1rem;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+  background-color: #831a02;
+}
+
+.no-data {
+  text-align: center;
+}
+
+.no-data .no-data-div {
+  padding-top: 45px;
+  text-decoration: underline;
+  font-style: italic;
+  padding: 15px;
+}

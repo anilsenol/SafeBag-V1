@@ -1,0 +1,145 @@
+.reservation-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(1, 0, 0, 1);
+}
+
+.reservation-container h2 {
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.reservation-container h2 span {
+  font-size: 32px;
+  font-style: italic;
+  color: coral;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+}
+.reservation-form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.reservation-form input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.reservation-form button {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #8e7dbe;
+  border: 1px solid #8e7dbe;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease,
+    background-color 0.4s ease, font-size 0.6s ease;
+}
+
+.reservation-form button:hover {
+  font-size: 22px;
+  border-color: #8e7dbe;
+  background-color: #9272eb;
+  color: #fff;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-message {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+.fail-message {
+  margin-top: 15px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.shop-map {
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .title h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .reservation-details-modal {
+    width: 90%;
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .reservation-details-modal h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .reservation-details-modal p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .cancel-div {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .cancel-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+
+  .table-container,
+  .MuiPaper-root {
+    overflow-x: auto;
+  }
+
+  .MuiTableCell-root {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .detail-btn {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .alert-container {
+    padding: 8px;
+  }
+
+  .alert {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,9 @@
+.reservation-details-modal li {
+  padding: 4px;
+  margin: 8px;
+  border: 1px solid #8e7dbe;
+  border-radius: 12px;
+}
+.reservation-details-modal li strong {
+  color: rgb(90, 80, 80);
+}

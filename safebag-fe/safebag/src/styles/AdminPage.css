@@ -1,0 +1,76 @@
+.page-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.table-row {
+  background-color: #6de1d2;
+}
+
+.table-row .table-cell {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.table-cell .detail-btn {
+  border-color: #8e7dbe;
+  color: #8e7dbe;
+  transition: border-color 0.3s ease, color 0.3s ease,
+    background-color 0.4s ease;
+}
+.table-cell .detail-btn:hover {
+  border-color: #8e7dbe;
+  background-color: #8e7dbe;
+  color: #fff;
+}
+
+.alert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.alert {
+  max-width: 600px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reservation-details-modal li {
+  padding: 4px;
+  margin: 8px;
+  border: 1px solid #8e7dbe;
+  border-radius: 12px;
+}
+.reservation-details-modal li strong {
+  color: rgb(90, 80, 80);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-delete {
+  padding: 10px 18px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #c71e04;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.6s ease, background-color 0.6s ease;
+}
+.btn-delete:hover {
+  transform: scale(1.1);
+  background-color: #831a02;
+}
