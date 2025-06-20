@@ -18,7 +18,7 @@ const MapShow = ({
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAy8s4G_5f8YMF3hvBRhU3FlRewXKEx8Sk">
+    <LoadScript googleMapsApiKey="">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={zoom}>
         {shops.map((shop, index) => (
           <Marker

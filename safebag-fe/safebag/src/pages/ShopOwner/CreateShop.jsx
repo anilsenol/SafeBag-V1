@@ -69,7 +69,7 @@ export const CreateShop = () => {
 
     if (name === "city" && shopData.country) {
       try {
-        const apiKey = "AIzaSyAy8s4G_5f8YMF3hvBRhU3FlRewXKEx8Sk";
+        const apiKey = "";
         const location = `${value}, ${shopData.country}`;
         const res = await axios.get(
           "https://maps.googleapis.com/maps/api/geocode/json",
